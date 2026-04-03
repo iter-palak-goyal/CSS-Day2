@@ -1,0 +1,85 @@
+# Breakpoints:
+1. Small Mobiles - 250-320
+2. Mobiles - 321-480/520
+3. Tablets - 780/850
+4. Laptops - 851-1024/1200
+5. Computers - more than 1200
+
+@media Screen and (maxHeight/ maxWidth = % value) and (maxHeight/maxWidth : value) {
+  //CSS 
+}
+
+@media type (condition) {
+  //CSS
+}
+
+type -> print
+     -> Screen
+     -> text-speech
+
+condition -> max-height  
+          -> min-height   
+          -> max-width
+          -> min-width
+          -> orientation
+
+
+Visibility none and Visibility Hidden:
+-> hidden will researve space for the element but none won't.          
+
+
+
+# Web Kit Properties:
+
+
+# Positions:
+-> static: always take position as static
+-> fixed: fix an element at a position
+    -> helper methods: helps us to place an object
+        top:value 
+        bottom:value 
+        left:value 
+        right:value  
+    (top and botton & left and right can be given to same element)
+-> sticky: first present at own place.
+-> absolute: float on the top of the element.
+-> relative: always pick us new position wrt to its exisitng place.  
+
+
+# JAVASCRIPT
+-> high level language: garbage collector
+-> dynamically typed language: run time
+-> Loosely/weakly typed: syntaxing is loose.
+-> synchronous: line by line as we have written
+-> single threaded
+-> blocking in nature: once a task is completed it cant go to another one.
+-> async -> helper thread -> still singly threaded -> try to execute things faster but at them comes to the main thread.
+
+
+# Working of JAVASCRIPT:
+-> render engine and JS engine:
+-> types of JS engine: 
+     1. V8 - present inside DOM, chrome, node req., deno, edge.....
+     2. Spider monkey - used inside firefox
+     3. JavaScript core - used in safari, bun....
+     4. Chakra - used in internet explorer
+
+JS File -> Parser/lexer (component) - syntax error and tokenisation/lexical analysis -> AST (abstract syntax tree) -> interpreter -> Profiler (repeating lines) hot/warm code -> JIT compiler (just in time) -> interpreter.
+ 
+-> types of environment:
+     1. Browser - run time environment
+     2. Non-Browser - run time environment -> run at Node, Bun, Deno.......
+
+Mocha -> LiveScript -> JavaScript  
+ECMAScript -> ES -> ES6 (2015) -> current version of JS is ES2025  
+
+
+# Tokens
+building blocks of code.
+
+# Variable
+containers which stores data values.
+-> let - cant be re-declared
+-> var - can be re-declared 
+-> const - for constant only
+
